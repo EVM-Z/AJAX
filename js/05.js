@@ -14,9 +14,7 @@ function cargarContenidoAjax() {
             var contenido = document.getElementById('contenido');
             contenido.innerHTML = xhr.responseText;
         }
-
     }
-
     xhr.send();
 }
 
